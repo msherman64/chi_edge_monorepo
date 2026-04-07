@@ -22,3 +22,6 @@
 [submodule "zun"]
 	path = zun
 	url = https://github.com/ChameleonCloud/zun
+[submodule "kolla-containers"]
+	path = kolla-containers
+	url = https://github.com/ChameleonCloud/kolla-containers
