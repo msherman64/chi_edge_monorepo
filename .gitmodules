@@ -1,27 +1,53 @@
+# deploy tools
 [submodule "chi-in-a-box"]
 	path = chi-in-a-box
 	url = https://github.com/ChameleonCloud/chi-in-a-box
-[submodule "chi-edge-workers"]
-	path = chi-edge-workers
-	url = https://github.com/ChameleonCloud/chi-edge-workers
+	branch = stable/xena
 [submodule "kolla-ansible"]
 	path = kolla-ansible
 	url = https://github.com/ChameleonCloud/kolla-ansible
-[submodule "python-chi-edge"]
-	path = python-chi-edge
-	url = https://github.com/ChameleonCloud/python-chi-edge
-[submodule "doni"]
-	path = doni
-	url = https://github.com/ChameleonCloud/doni
-[submodule "tunelo"]
-	path = tunelo
-	url = https://github.com/ChameleonCloud/tunelo
-[submodule "blazar"]
-	path = blazar
-	url = https://github.com/ChameleonCloud/blazar
-[submodule "zun"]
-	path = zun
-	url = https://github.com/ChameleonCloud/zun
+	branch = chameleoncloud/xena
+
+# container builds
 [submodule "kolla-containers"]
 	path = kolla-containers
 	url = https://github.com/ChameleonCloud/kolla-containers
+	branch = stable/xena
+[submodule "kolla"]
+	path = kolla
+	url = https://github.com/ChameleonCloud/kolla
+	branch = chameleoncloud/xena
+
+# openstack services
+[submodule "blazar"]
+	path = blazar
+	url = https://github.com/ChameleonCloud/blazar
+	branch = chameleoncloud/xena
+[submodule "doni"]
+	path = doni
+	url = https://github.com/ChameleonCloud/doni
+	branch = chameleoncloud/xena
+[submodule "tunelo"]
+	path = tunelo
+	url = https://github.com/ChameleonCloud/tunelo
+	branch = chameleoncloud/xena
+[submodule "zun"]
+	path = zun
+	url = https://github.com/ChameleonCloud/zun
+	branch = chameleoncloud/xena
+
+# Client libraries/tools
+[submodule "python-chi-edge"]
+	path = python-chi-edge
+	url = https://github.com/ChameleonCloud/python-chi-edge
+	branch = main
+[submodule "python-doniclient"]
+	path = python-doniclient
+	url = https://github.com/ChameleonCloud/python-doniclient
+	branch = main
+
+# CHI@Edge fleet and coodinator
+[submodule "chi-edge-workers"]
+	path = chi-edge-workers
+	url = https://github.com/ChameleonCloud/chi-edge-workers
+	branch = main
