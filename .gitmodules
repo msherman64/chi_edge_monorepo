@@ -51,3 +51,11 @@
 	path = chi-edge-workers
 	url = https://github.com/ChameleonCloud/chi-edge-workers
 	branch = main
+
+# Docs
+[submodule "docs"]
+	path = docs
+	url = https://github.com/ChameleonCloud/docs
+[submodule "chi-edge-docs"]
+	path = chi-edge-docs
+	url = https://github.com/ChameleonCloud/chi-edge-docs
